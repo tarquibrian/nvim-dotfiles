@@ -1,5 +1,6 @@
 return {
-  "folke/tokyonight.nvim",
-  lazy = true,
-  opts = { style = "night" },
+  "tiagovla/tokyodark.nvim",
+  opts = {
+    transparent_background = false,
+  },
 }
